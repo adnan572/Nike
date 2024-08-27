@@ -4,7 +4,6 @@ import { shoes,statistics } from "../constants"
 import { bigShoe1 } from "../assets/images"
 import ShoeCard from "../components/ShoeCard"
 import { useState } from "react"
-import FadeInSection from "../components/FadeInSection"
 const Hero = () => {
   const [bigShoeImage,setBigShoeImage] = useState(bigShoe1)
   return (
